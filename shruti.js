@@ -6,7 +6,7 @@ var controller=function(req,res){
 console.log("list is");
 var customer= [
 {id:1,name:"shruti",salary:1000000},
-{id:2,name:"nachiket",salary:1000000000}
+{id:2,name:"nikhil",salary:1000000000}
 ];
 res.send(customer);
 };
